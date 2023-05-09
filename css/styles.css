@@ -32,6 +32,7 @@ p {
   padding: 0;
   list-style: none;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -50,22 +51,21 @@ img {
   background-color: white;
 }
 
-.container {
-  /* 
-  padding: 0 15px;
-  margin-top: 0;
-  margin-bottom: 0;
-  */
-  outline: 2px solid red;
-  outline-offset: -2px;
 
-  /* Phone */
+/* Phone */
+.container {
+  
   min-width: 320px;
   max-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
+
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+ 
 }
 
 /* Tablet */
