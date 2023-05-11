@@ -60,6 +60,18 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="" width="32" height="22">
+            <use href="./images/icons.svg#icon-phone-menu"></use>
+          </svg>
+        </button>
+
+      </div>
+    </header>
       </div>
     </header>
 
@@ -395,5 +407,92 @@
         </div>
       </div>
     </footer>
+
+     <!-- Phone menu -->
+     <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu button">
+        
+        <svg class="close-phone-menu" width="8" height="8">
+          <use href="./images/icons.svg#close-markup"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li>
+          <a class="link phone-menu-link " href="./index.html" >Studio</a>
+        </li>
+        <li>
+          <a class="phone-menu-link current link " href="./portfolio.html" >Portfolio</a>
+        </li>
+        <li>
+          <a class="link phone-menu-link" href="" >Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-contact list">
+        <li>
+          <a class="link phone-menu-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
+        <li>
+          <a class="link section-undertitle mobile-menu-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="phone-social-list list">
+        <li class="phone-item-social">
+          <a
+            class="link social-link-team social-link"
+            href="https://www.instagram.com/"
+            aria-label="instagram icon"
+          >
+            <svg class="social-icon" width="16" height="16">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="phone-item-social">
+          <a
+            class="link social-link-team social-link"
+            href="https://twitter.com/?lang=en"
+            aria-label="twitter icon"
+          >
+            <svg class="social-icon" width="16" height="16">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="phone-item-social">
+          <a
+            class="link social-link-team social-link"
+            href="https://www.facebook.com/"
+            aria-label="facebook icon"
+          >
+            <svg class="social-icon" width="16" height="16">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="phone-item-social">
+          <a
+            class="link social-link-team social-link"
+            href="https://www.linkedin.com/"
+            aria-label="linkedin icon"
+          >
+            <svg class="social-icon" width="16" height="16">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
