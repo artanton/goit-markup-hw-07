@@ -85,7 +85,7 @@
       </section>
 
       <!-- section 1 -->
-      <section class="section-features">
+      <section class="section-features section">
         <div class="container">
           <h2 hidden class="features-title section-title">
             Webstudio features
@@ -145,51 +145,64 @@
 
       <!-- section 2 -->
 
-      <!-- <section class="what-are-section">
+      <section class="what-are-section section">
         <div class="container">
           <h2 class="what-are-title section-title">What are we doing</h2>
           <ul class="list what-are-list">
             <li class="what-are-item">
               <img
-                src="./images/section2/Desktop.jpg"
-                alt="websites"
-                width="360"
-                height="300"
+               class="what-are-img"
+               srcset="./images/section2/laptop@1x.jpg 1x, ./images/section2/laptop@2x.jpg 2x"
+               src="./images/section2/laptop@1x.jpg"
+               alt="desktop-software"
+               width="360"
+               height="300"
+               loading="lazy"
               />
             </li>
             <li class="what-are-item">
               <img
-                src="./images/section2/mobile-app.jpg"
-                alt="mobile apps"
-                width="360"
-                height="300"
+               class="what-are-img"
+               srcset="./images/section2/app@1x.jpg 1x, ./images/section2/app@2x.jpg 2x"
+               src="./images/section2/app@1x.jpg"
+               alt="mobile-apps"
+               width="360"
+               height="300"
+               loading="lazy"
               />
             </li>
             <li class="what-are-item">
               <img
-                src="./images/section2/cross-platform.jpg"
-                alt="cross-platform apps"
-                width="360"
-                height="300"
+               class="what-are-img"
+               srcset="./images/section2/cross-platform@1x.jpg 1x, ./images/section2/cross-platform@2x.jpg 2x"
+               src="./images/section2/cross-platform@1x.jpg"
+               alt="mobile-apps"
+               width="360"
+               height="300"
+               loading="lazy"
               />
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- section 3 -->
-      <!-- <section class="team-section">
+      <section class="team-section section">
         <div class="container">
           <h2 class="section-title team-title">Our Team</h2>
 
           <ul class="list team-list">
             <li class="team-item">
               <img
-                src="./images/section3/mark.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
+               class="team-img"
+               srcset="./images/section3/mark@1x.jpg 1x, ./images/section3/mark@2x.jpg 2x"
+               src="./images/section3/mark@1x.jpg"
+               alt="Mark Guerrero"
+               width="264"
+               height="260"
+               loading="lazy"
               />
+              
               <div class="team-person">
                 <h3 class="undertitle team-head">Mark Guerrero</h3>
                 <p class="team-paragraph paragraph">Product Designer</p>
@@ -244,11 +257,15 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/section3/tom.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
+               class="team-img"
+               srcset="./images/section3/tom@1x.jpg 1x, ./images/section3/tom@2x.jpg 2x"
+               src="./images/section3/tom@1x.jpg"
+               alt="Tom Ford"
+               width="264"
+               height="260"
+               loading="lazy"
               />
+              
               <div class="team-person">
                 <h3 class="undertitle team-head">Tom Ford</h3>
                 <p class="team-paragraph paragraph">
@@ -305,11 +322,15 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/section3/camila.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
+               class="team-img"
+               srcset="./images/section3/comila@1x.jpg 1x, ./images/section3/comila@2x.jpg 2x"
+               src="./images/section3/comila@1x.jpg"
+               alt="Camila Garcia"
+               width="264"
+               height="260"
+               loading="lazy"
               />
+              
               <div class="team-person">
                 <h3 class="undertitle team-head">Camila Garcia</h3>
                 <p class="team-paragraph paragraph">Marketing</p>
@@ -364,11 +385,15 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/section3/daniel.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
+               class="team-img"
+               srcset="./images/section3/deniel@1x.jpg 1x, ./images/section3/deniel@2x.jpg 2x"
+               src="./images/section3/deniel@1x.jpg"
+               alt="Daniel Wilson"
+               width="264"
+               height="260"
+               loading="lazy"
               />
+             
               <div class="team-person">
                 <h3 class="undertitle team-head">Daniel Wilson</h3>
                 <p class="team-paragraph paragraph">UI Designer</p>
@@ -422,11 +447,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- customers section -->
 
-      <!-- <section class="customers-section">
+      <section class="customers-section section">
         <div class="container">
           <h2 class="customers-title section-title">Customers</h2>
           <ul class="customers-list list">
@@ -474,12 +499,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!-- footer -->
 
-    <!-- <footer class="footer-main">
+    <footer class="footer-main">
       <div class="container footer-container">
         <div class="footer-text">
           <a class="logo link footer-logo" href="./index.html"
@@ -492,7 +517,7 @@
           </p>
         </div>
         <div class="footer-media">
-          <p class="footer-title">Social media</p>
+          <p class="footer-title social-title">Social media</p>
 
           <ul class="social-footer-list list">
             <li class="social-items">
@@ -559,10 +584,10 @@
               </form>
             </div>
          
-    </footer> -->
+    </footer>
     <!-- modal window -->
 
-    <!-- <div class="modal-window-overlay is-hidden" data-modal>
+    <div class="modal-window-overlay is-hidden" data-modal>
       <div class="modal-window">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="close-window" width="8" height="8">
@@ -625,7 +650,7 @@
 
         </form>
       </div>
-    </div> -->
+    </div>
     
     <script src="./js/modal.js";></script>
 
